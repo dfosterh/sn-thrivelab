@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation>Call an unauthenticated JSON endpoint</annotation>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{step[8ccaeb56-1e4b-4e4a-aeb0-6dea0d953d16].placeId}}","label":"step➛Script step➛placeId","type":"step","ref":""},{"name":"{{step[8ccaeb56-1e4b-4e4a-aeb0-6dea0d953d16].displayName}}","label":"step➛Script step➛displayName","type":"step","ref":""}]</label_cache>
+        <name>TestAction01</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="TestAction01">a84541d04f9213002e7e8020a310c790</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-21 18:41:54</sys_created_on>
+        <sys_id>3d988d544f9213002e7e8020a310c799</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TestAction01</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_3d988d544f9213002e7e8020a310c799</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-21 18:41:55</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d988d544f9213002e7e8020a310c799"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3d988d544f9213002e7e8020a310c799"/>
+    <sys_element_mapping action="delete_multiple" query="id=3d988d544f9213002e7e8020a310c799"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>displayname</field>
+        <id>3d988d544f9213002e7e8020a310c799</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-21 18:41:55</sys_created_on>
+        <sys_id>82988d544f9213002e7e8020a310c7c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-21 18:41:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3d988d544f9213002e7e8020a310c799</table>
+        <value>{{step[8ccaeb56-1e4b-4e4a-aeb0-6dea0d953d16].displayName}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>palceid</field>
+        <id>3d988d544f9213002e7e8020a310c799</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-21 18:41:55</sys_created_on>
+        <sys_id>ce988d544f9213002e7e8020a310c7c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-21 18:41:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3d988d544f9213002e7e8020a310c799</table>
+        <value>{{step[8ccaeb56-1e4b-4e4a-aeb0-6dea0d953d16].placeId}}</value>
+    </sys_element_mapping>
+</record_update>

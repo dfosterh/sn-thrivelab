@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_175353_thrivelab.OAuthThriveSalesForceGetToken</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>OAuthThriveSalesForceGetToken</name>
+        <script><![CDATA[var OAuthThriveSalesForceGetToken = Class.create();
+OAuthThriveSalesForceGetToken.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+	initiateTokenFlow : function() {
+		gs.info("OAuthThriveSalesForceGetToken called");
+		
+		// Create an output tag called result
+		var result = this.newItem('result');
+		
+		// Get from the parameters
+		var requestor = this.getParameter('oauth_requestor');
+		var requestor_context = this.getParameter('oauth_requestor_context');
+		var oauth_provider_profile = this.getParameter('oauth_provider_profile');
+		var oauth_provider_id = this.getParameter('oauth_provider_id');
+		var username = "salesforceintegration@thrivenetworks.com.devthrive3";
+		var password = "w*nyWg0yXN(i";
+		
+		//step1 request for a token using password flow
+		var tokenRequest = new  sn_auth.GlideOAuthClientRequest();		
+		
+		tokenRequest.setUserName(username);
+		tokenRequest.setPassword(password);
+
+//		tokenRequest.setParameter('oauth_requestor_context', requestor_context);
+//	    tokenRequest.setParameter('oauth_requestor', requestor);
+//	    tokenRequest.setParameter('oauth_provider_profile', oauth_provider_profile); //set OAuth Entity Profile		
+//		tokenRequest.setParameter('oauth_provider_id', oauth_provider_id);
+				
+		var oAuthClient = new  sn_auth.GlideOAuthClient();
+		var tokenResponse = oAuthClient.requestTokenByRequest(null, tokenRequest); // null for backward compatibility
+		
+		var errorMsg = tokenResponse.getErrorMessage();
+		result.setAttribute('responseCode', tokenResponse.getResponseCode() );
+		result.setAttribute('errorMessage', errorMsg);
+		
+		if(errorMsg) {
+			gs.log("OAuth authentication failed for password grant type flow");
+			result.setAttribute('isToken', 'false');
+			return;
+		}
+		
+		
+		if (tokenResponse) {
+			var token = tokenResponse.getToken();
+			
+			if(token) {
+				if(token.getAccessToken()) {
+					gs.log("Successfully obtained OAuth token");
+					result.setAttribute('isToken', 'true');
+					return;
+				}
+			}
+		}
+		
+		gs.log("OAuth authentication failed for password grant type flow");
+		result.setAttribute('isToken', 'false');
+		
+	},
+	
+	type: 'OAuthThriveSalesForceGetToken'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-24 19:28:14</sys_created_on>
+        <sys_id>10bf24114fd213002e7e8020a310c704</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>OAuthThriveSalesForceGetToken</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>sys_script_include_10bf24114fd213002e7e8020a310c704</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-25 19:05:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

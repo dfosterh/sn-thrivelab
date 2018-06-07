@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,manage_tokens</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 16:36:41</sys_created_on>
+        <sys_id>65a8f5fa4f5213002e7e8020a310c71b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,manage_tokens</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>sys_ui_view_65a8f5fa4f5213002e7e8020a310c71b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 16:36:41</sys_updated_on>
+        <title>Sys_popup,manage_tokens</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

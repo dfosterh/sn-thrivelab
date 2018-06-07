@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description>oAuth2 API test to SalesForce</description>
+        <label_cache>[{"name":"{{step[8e70ed40-493c-40db-827e-fe6ccc773844].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[8e70ed40-493c-40db-827e-fe6ccc773844].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].tooling}}","label":"step➛Script step➛tooling","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].metadata}}","label":"step➛Script step➛metadata","type":"step","ref":""}]</label_cache>
+        <name>TestAction02</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="TestAction02">01fa251c4fd213002e7e8020a310c703</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-24 20:55:17</sys_created_on>
+        <sys_id>38e38d5d4fd213002e7e8020a310c722</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TestAction02</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_38e38d5d4fd213002e7e8020a310c722</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-24 20:55:19</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=38e38d5d4fd213002e7e8020a310c722"/>
+    <sys_variable_value action="delete_multiple" query="document_key=38e38d5d4fd213002e7e8020a310c722"/>
+    <sys_element_mapping action="delete_multiple" query="id=38e38d5d4fd213002e7e8020a310c722"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>metadata</field>
+        <id>38e38d5d4fd213002e7e8020a310c722</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-24 20:55:19</sys_created_on>
+        <sys_id>51e38d5d4fd213002e7e8020a310c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-24 20:55:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_38e38d5d4fd213002e7e8020a310c722</table>
+        <value>{{step[be2fe432-f499-4e76-8e99-ca6adde80152].metadata}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tooling</field>
+        <id>38e38d5d4fd213002e7e8020a310c722</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-24 20:55:19</sys_created_on>
+        <sys_id>9de38d5d4fd213002e7e8020a310c769</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-24 20:55:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_38e38d5d4fd213002e7e8020a310c722</table>
+        <value>{{step[be2fe432-f499-4e76-8e99-ca6adde80152].tooling}}</value>
+    </sys_element_mapping>
+</record_update>
