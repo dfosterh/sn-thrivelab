@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_step_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="TestAction02">e819c0194f5213002e7e8020a310c73d</action>
         <cid>8e70ed40-493c-40db-827e-fe6ccc773844</cid>

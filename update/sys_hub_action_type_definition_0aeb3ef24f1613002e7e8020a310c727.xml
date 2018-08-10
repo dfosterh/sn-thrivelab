@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_action_type_definition">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
         <annotation/>
         <category/>
+        <copied_from/>
+        <copied_from_name/>
         <description>oAuth2 API test to SalesForce</description>
+        <internal_name>testaction03</internal_name>
         <label_cache>[{"name":"{{step[8e70ed40-493c-40db-827e-fe6ccc773844].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[8e70ed40-493c-40db-827e-fe6ccc773844].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].f}}","label":"step➛Script step➛f","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].fi}}","label":"step➛Script step➛fi","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].fir}}","label":"step➛Script step➛fir","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firs}}","label":"step➛Script step➛firs","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].first}}","label":"step➛Script step➛first","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstn}}","label":"step➛Script step➛firstn","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstna}}","label":"step➛Script step➛firstna","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstnam}}","label":"step➛Script step➛firstnam","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstname}}","label":"step➛Script step➛firstname","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].s}}","label":"step➛Script step➛s","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].se}}","label":"step➛Script step➛se","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].sec}}","label":"step➛Script step➛sec","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].seco}}","label":"step➛Script step➛seco","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secon}}","label":"step➛Script step➛secon","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].second}}","label":"step➛Script step➛second","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondn}}","label":"step➛Script step➛secondn","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondna}}","label":"step➛Script step➛secondna","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondnam}}","label":"step➛Script step➛secondnam","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondname}}","label":"step➛Script step➛secondname","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].t}}","label":"step➛Script step➛t","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].to}}","label":"step➛Script step➛to","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].tot}}","label":"step➛Script step➛tot","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].tota}}","label":"step➛Script step➛tota","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].total}}","label":"step➛Script step➛total","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].totalS}}","label":"step➛Script step➛totalS","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].totalSi}}","label":"step➛Script step➛totalSi","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].totalSiz}}","label":"step➛Script step➛totalSiz","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].totalSize}}","label":"step➛Script step➛totalSize","type":"step","ref":""}]</label_cache>
-        <latest_snapshot display_value="TestAction03">db260bba4f1613002e7e8020a310c745</latest_snapshot>
+        <latest_snapshot>32cfad4b4f6213002e7e8020a310c773</latest_snapshot>
+        <master_snapshot/>
         <name>TestAction03</name>
         <outputs/>
         <outputs/>
@@ -16,15 +19,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-29 21:30:32</sys_created_on>
         <sys_id>0aeb3ef24f1613002e7e8020a310c727</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>TestAction03</sys_name>
         <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
         <sys_policy/>
         <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0aeb3ef24f1613002e7e8020a310c727</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-29 22:15:26</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-02 16:02:35</sys_updated_on>
         <system_level>false</system_level>
+        <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=0aeb3ef24f1613002e7e8020a310c727"/>
     <sys_variable_value action="delete_multiple" query="document_key=0aeb3ef24f1613002e7e8020a310c727"/>

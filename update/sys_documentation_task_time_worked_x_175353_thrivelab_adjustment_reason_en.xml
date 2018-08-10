@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_175353_thrivelab_adjustment_reason" label="Adjustment Reason" language="en" table="task_time_worked">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_175353_thrivelab_adjustment_reason</element>
+            <help/>
+            <hint/>
+            <label>Adjustment Reason</label>
+            <language>en</language>
+            <name>task_time_worked</name>
+            <plural>Adjustment Reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-09 18:49:45</sys_created_on>
+            <sys_id>709941c64fb313002e7e8020a310c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Adjustment Reason</sys_name>
+            <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+            <sys_update_name>sys_documentation_task_time_worked_x_175353_thrivelab_adjustment_reason_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-09 18:49:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

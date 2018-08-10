@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_action_type_snapshot">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <annotation/>
         <category/>
+        <copied_from/>
+        <copied_from_name/>
         <description>oAuth2 API test to SalesForce</description>
+        <internal_name>testaction03</internal_name>
         <label_cache>[{"name":"{{step[8e70ed40-493c-40db-827e-fe6ccc773844].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[8e70ed40-493c-40db-827e-fe6ccc773844].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].f}}","label":"step➛Script step➛f","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].fi}}","label":"step➛Script step➛fi","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].fir}}","label":"step➛Script step➛fir","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firs}}","label":"step➛Script step➛firs","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].first}}","label":"step➛Script step➛first","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstn}}","label":"step➛Script step➛firstn","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstna}}","label":"step➛Script step➛firstna","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstnam}}","label":"step➛Script step➛firstnam","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].firstname}}","label":"step➛Script step➛firstname","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].s}}","label":"step➛Script step➛s","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].se}}","label":"step➛Script step➛se","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].sec}}","label":"step➛Script step➛sec","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].seco}}","label":"step➛Script step➛seco","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secon}}","label":"step➛Script step➛secon","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].second}}","label":"step➛Script step➛second","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondn}}","label":"step➛Script step➛secondn","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondna}}","label":"step➛Script step➛secondna","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondnam}}","label":"step➛Script step➛secondnam","type":"step","ref":""},{"name":"{{step[be2fe432-f499-4e76-8e99-ca6adde80152].secondname}}","label":"step➛Script step➛secondname","type":"step","ref":""}]</label_cache>
+        <master>false</master>
         <name>TestAction03</name>
         <outputs/>
         <outputs/>
@@ -14,15 +17,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-29 22:08:27</sys_created_on>
         <sys_id>a594477a4f1613002e7e8020a310c77e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>TestAction03</sys_name>
         <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
         <sys_policy/>
         <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
         <sys_update_name>sys_hub_action_type_snapshot_a594477a4f1613002e7e8020a310c77e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-29 22:08:29</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-02 16:02:36</sys_updated_on>
         <system_level>false</system_level>
+        <type/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a594477a4f1613002e7e8020a310c77e"/>
     <sys_variable_value action="delete_multiple" query="document_key=a594477a4f1613002e7e8020a310c77e"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>1914c89a493213005910f4c2e3fbe089</client_id>
+        <client_secret>09KzrIjL0BAxkkwMGaZ/ng==</client_secret>
+        <client_uuid>d514c89a4f3213002e7e8020a310c789</client_uuid>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <name>OAuthAlexaPOC</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt/>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 15:30:15</sys_created_on>
+        <sys_id>5914c89a4f3213002e7e8020a310c789</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OAuthAlexaPOC</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>oauth_entity_5914c89a4f3213002e7e8020a310c789</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 15:30:15</sys_updated_on>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

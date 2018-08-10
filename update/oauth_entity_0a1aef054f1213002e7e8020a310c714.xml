@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="oauth_entity">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
     <oauth_entity action="INSERT_OR_UPDATE">
         <access>public</access>
         <access_token_lifespan>1800</access_token_lifespan>
@@ -15,8 +14,9 @@
         <id_token_lifespan>0</id_token_lifespan>
         <logo_url/>
         <message_signature_lifespan>0</message_signature_lifespan>
-        <name>OAuthSalesForce</name>
-        <oauth_api_script display_value="OAuthSFHandler">3e3a3a11c333210016194ffe5bba8f70</oauth_api_script>
+        <name>OAuthFirstTest</name>
+        <oauth_api_script/>
+        <protocol_name/>
         <redirect_url>https://dev47808.service-now.com/oauth_redirect.do</redirect_url>
         <refresh_token_lifespan>8640000</refresh_token_lifespan>
         <revoke_token_url>https://test.salesforce.com/services/oauth2/revoke</revoke_token_url>
@@ -25,16 +25,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 14:31:43</sys_created_on>
         <sys_id>0a1aef054f1213002e7e8020a310c714</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>OAuthSalesForce</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>OAuthFirstTest</sys_name>
         <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
         <sys_policy/>
         <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
         <sys_update_name>oauth_entity_0a1aef054f1213002e7e8020a310c714</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-29 16:20:39</sys_updated_on>
+        <sys_updated_on>2018-06-12 19:26:25</sys_updated_on>
         <token_url>https://test.salesforce.com/services/oauth2/token</token_url>
         <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
         <user/>
     </oauth_entity>
 </record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Time Worked" max_length="40" name="task_time_worked" type="collection">
+        <element label="Adjustment Reason" max_length="255" name="x_175353_thrivelab_adjustment_reason" type="string"/>
+        <element function_definition="glidefunction:multiply(time_worked, x_175353_thrivelab_billed_rate)" function_field="true" label="Billed Amount" max_length="20" name="x_175353_thrivelab_billed_amount" read_only="true" type="decimal"/>
+        <element label="Billed Rate" max_length="15" name="x_175353_thrivelab_billed_rate" type="decimal"/>
+        <element label="Cost" max_length="15" name="x_175353_thrivelab_cost" read_only="true" type="decimal"/>
+        <element label="Invoiced" max_length="40" name="x_175353_thrivelab_invoiced" read_only="true" type="boolean"/>
+        <element display="true" label="Rack Rate" max_length="20" name="x_175353_thrivelab_rack_rate" read_only="true" type="decimal"/>
+    </element>
+</database>

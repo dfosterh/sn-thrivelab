@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="MyRestAction">486e89f54f2613002e7e8020a310c7cd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="MyRestTest">624f85f54f2613002e7e8020a310c7f2</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-07 21:34:14</sys_created_on>
+        <sys_id>cc1319b94f2613002e7e8020a310c70e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>sys_hub_action_instance_cc1319b94f2613002e7e8020a310c70e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:36:33</sys_updated_on>
+        <ui_id>5758dbe2-b72e-4e6b-9beb-48445ac1720f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc1319b94f2613002e7e8020a310c70e"/>
+</record_update>

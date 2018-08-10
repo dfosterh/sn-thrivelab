@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>myrestaction</internal_name>
+        <label_cache>[{"name":"{{step[92ad6a01-3e5f-40c7-acfb-26de88d418d1].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[92ad6a01-3e5f-40c7-acfb-26de88d418d1].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].p}}","label":"step➛Script step➛p","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].pl}}","label":"step➛Script step➛pl","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].pla}}","label":"step➛Script step➛pla","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].plac}}","label":"step➛Script step➛plac","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].place}}","label":"step➛Script step➛place","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].placeI}}","label":"step➛Script step➛placeI","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].placeId}}","label":"step➛Script step➛placeId","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].d}}","label":"step➛Script step➛d","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].di}}","label":"step➛Script step➛di","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].dis}}","label":"step➛Script step➛dis","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].disp}}","label":"step➛Script step➛disp","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displ}}","label":"step➛Script step➛displ","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displa}}","label":"step➛Script step➛displa","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].display}}","label":"step➛Script step➛display","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displayN}}","label":"step➛Script step➛displayN","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displayNa}}","label":"step➛Script step➛displayNa","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displayNam}}","label":"step➛Script step➛displayNam","type":"step","ref":""},{"name":"{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displayName}}","label":"step➛Script step➛displayName","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>486e89f54f2613002e7e8020a310c7cd</latest_snapshot>
+        <master_snapshot/>
+        <name>MyRestAction</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-07 20:14:05</sys_created_on>
+        <sys_id>b1b005f94fe213002e7e8020a310c736</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>MyRestAction</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b1b005f94fe213002e7e8020a310c736</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-02 16:02:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1b005f94fe213002e7e8020a310c736"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b1b005f94fe213002e7e8020a310c736"/>
+    <sys_element_mapping action="delete_multiple" query="id=b1b005f94fe213002e7e8020a310c736"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>displayname</field>
+        <id>b1b005f94fe213002e7e8020a310c736</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-07 21:13:34</sys_created_on>
+        <sys_id>955e49f54f2613002e7e8020a310c7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:13:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b1b005f94fe213002e7e8020a310c736</table>
+        <value>{{step[66ced860-e013-4e54-9c30-518afdb89a6d].displayName}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>placeid</field>
+        <id>b1b005f94fe213002e7e8020a310c736</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-07 21:13:34</sys_created_on>
+        <sys_id>d15e49f54f2613002e7e8020a310c7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:13:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b1b005f94fe213002e7e8020a310c736</table>
+        <value>{{step[66ced860-e013-4e54-9c30-518afdb89a6d].placeId}}</value>
+    </sys_element_mapping>
+</record_update>

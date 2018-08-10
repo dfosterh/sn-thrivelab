@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 21:25:33</sys_created_on>
+        <sys_id>b23d2d024f3713002e7e8020a310c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_175353_thrivelab_invoice_header.x_175353_thrivelab.invoice_header_user</sys_name>
+        <sys_package display_value="ThriveLab" source="x_175353_thrivelab">64a4961a4f0213002e7e8020a310c783</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveLab">64a4961a4f0213002e7e8020a310c783</sys_scope>
+        <sys_security_acl display_value="x_175353_thrivelab_invoice_header">363d2d024f3713002e7e8020a310c726</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b23d2d024f3713002e7e8020a310c72a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 21:25:33</sys_updated_on>
+        <sys_user_role display_value="x_175353_thrivelab.invoice_header_user" name="x_175353_thrivelab.invoice_header_user">aa3d654e4ff313002e7e8020a310c762</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

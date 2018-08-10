@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Invoice Header" max_length="40" name="x_175353_thrivelab_invoice_header" type="collection">
+        <element choice="3" label="Company" mandatory="true" max_length="32" name="company" reference="core_company" reference_qual="sys_domain!=global^customer=true^EQ" reference_qual_condition="sys_domain!=global^customer=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="DEMO Rate" mandatory="true" max_length="20" name="demo_rate" type="decimal"/>
+        <element choice="3" label="Invoice Type" mandatory="true" max_length="100" name="invoice_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MRR" value="MRR"/>
+                <element inactive_on_update="false" label="T&amp;M" value="TnM"/>
+            </choice>
+        </element>
+        <element label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <index name="index">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+        <index name="index3">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>
